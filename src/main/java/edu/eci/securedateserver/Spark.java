@@ -13,7 +13,7 @@ public class Spark {
     // View example at https://localhost:4567/secureHello
     public static void main(String[] args) {
         port(getPort());      
-        secure("deploy/keystorageserver.jks", "secureServer1zy", null, null);
+        secure("deploy/keystoredate.jks", "secureDate", null, null);
         get("/", (request, response) -> {
             java.util.Date fecha = new Date();
             return fecha;
