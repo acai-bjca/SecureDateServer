@@ -34,7 +34,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>edu.eci.DateServer.DateServerApp</mainClass>
+                            <mainClass>edu.eci.securedateserver.Spark</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
